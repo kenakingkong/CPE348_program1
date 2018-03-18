@@ -20,7 +20,7 @@ def get_subsets(astring):
       return alist
 
 #string -> list of lists of the subsets and their bitstring
-#generates list containing subsets along iwth bitstring representation
+#generates list containing subsets along with bitstring representation
 def get_bitstrings(string):
    alist = []
    subsets = get_subsets(string)
